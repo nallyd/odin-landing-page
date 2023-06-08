@@ -1,0 +1,2 @@
+# Remove any .swp files that may currently exist due to vim
+*.swp
