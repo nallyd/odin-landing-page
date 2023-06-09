@@ -142,8 +142,8 @@ footer {
 }
 
 .section-two img {
-	height: 120px;
-	width: 120px;
+	min-height: 120px;
+	min-width: 120px;
 	border: 2px solid blue;
 	border-radius: 8px;
 }
