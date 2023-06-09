@@ -8,11 +8,64 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+footer {
+	font-size: 12px;
+	color: white;
+	background-color: #1f2937;
+	text-align: center;
+	padding: 24px;
+}
+
 .section-one {
 	display: flex;
 	justify-content: center;
+	display: flex;
 	padding: 0px 8% 64px 8%;
 	background-color: #1f2937;
+}
+
+.section-two {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 32px;
+	display: flex;
+	padding: 0px 8% 64px 8%;
+}
+
+.section-four {
+	display: flex;
+	font-size: 14px;
+	justify-content: center;
+	margin-top: 64px;
+	padding: 0px 8% 64px 8%;
+}
+
+.cta {
+	width: 70%;
+	align-items: center;
+	display: flex;
+	margin: 0px auto;
+	padding: 16px 32px;
+	border-radius: 6px;
+	color: white;
+	justify-content: space-between;
+	background-color: #3b82f6;
+}
+
+.section-three {
+	display: flex;
+	justify-content: center;
+	background-color: #e5e7eb;
+	justify-content: center;
+	padding: 64px 8%;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
 }
 
 .content {
@@ -23,7 +76,7 @@ body {
 .nav-bar {
 	display: flex;
 	color: white;
-	padding: 12px;
+	padding: 12px 0px;
 	margin-bottom: 64px;
 	justify-content: space-between;
 }
@@ -40,6 +93,18 @@ body {
 	justify-content: space-between;
 }
 
+.section-three h3 {
+	font-size: 16px;
+	text-align: right;
+	padding: 0px 150px;
+}
+
+.section-three p {
+	font-size: 28px;
+	font-weight: 300;
+	padding: 24px 128px;
+}
+
 .info-block > * {
 	margin: 5px auto;
 }
@@ -49,8 +114,12 @@ body {
 	line-height: 1.2em;
 }
 
+.section-two h1 {
+	margin-bottom: 32px;
+}
+
 .info-block h1 {
-	font-size: 42px;
+	font-size: 32px;
 }
 
 .info-block button {
@@ -62,12 +131,29 @@ body {
 	background-color: #3b82f6;
 }
 
+.cta button {
+	padding: 4px 18px;
+	font-size: 12px;
+	border: 2px solid white;
+	color: white;
+	font-weight: 700;
+	border-radius: 4px;
+	background-color: #3b82f6;
+}
+
+.section-two img {
+	height: 120px;
+	width: 120px;
+	border: 2px solid blue;
+	border-radius: 8px;
+}
+
 .sign-up img {
 	background-color: gray;
 	text-align: center;
-	line-height: 220px;
-	height: 220px;
-	min-width: 450px;
+	line-height: 200px;
+	height: 200px;
+	min-width: 430px;
 }
 
 .nav-bar p {
@@ -82,4 +168,9 @@ body {
 	align-items: center;
 	justify-content: flex-end;
 	gap: 16px;
+}
+
+.info figure {
+	width: 120px;
+	font-size: 12px;
 }
